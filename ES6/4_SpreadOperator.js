@@ -5,6 +5,7 @@ function printMessage(a, b, c) {
   console.log(b);
   console.log(c);
 }
+//printMessage('A',B,C);
 
 var arrayOfValues = ['Hello', 'ES6', 1, false];
 printMessage(...arrayOfValues);

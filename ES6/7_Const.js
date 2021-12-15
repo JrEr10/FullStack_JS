@@ -1,5 +1,6 @@
-//SOLO SE REASIGNA CUANDO NO ES TIPO DE DATO PRIMITIVO
-//COMO OBJETO Y FUNCIONES
+//Siempre se inicializa
+//SÓLO SE REASIGNA CUANDO NO ES TIPO DE DATO PRIMITIVO
+//No primitivos: COMO OBJETO Y FUNCIONES
 
 const API_KEY_SENDGRID = '23456IOLKJHGFDFGBD-FSDF234233333242'
 console.log(API_KEY_SENDGRID);
@@ -26,3 +27,11 @@ const objUser = {
   arrayDogs[0] = 'Harry';
 
 console.log(arrayDogs);
+
+//------------------------------
+
+const getData = function () {
+    return {};
+  };
+  
+  getData();
